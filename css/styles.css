@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    font-family:  Raleway;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    background: rgba( 122, 9, 226, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+    
+}
+
+.divisor{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.cuadro{
+    margin: 3rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgb(207, 249, 249);
+    border-radius: 10px;
+    font-size: large;
+
+}
+
+.texto{
+    font-size: x-large;
+    align-self: center;
+}
+
+.do{
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    border: 2px solid #000000; 
+    border-radius: 5px;
+}
+
+.op1{
+    margin: 1rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: #98A8F8;
+    border-radius: 10px;
+    font-size: large;
+}
+.op2{
+    margin: 1rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: #BCCEF8;
+    border-radius: 10px;
+    font-size: large;
+}
+.op3{
+    margin: 1rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: #CDFCF6;
+    border-radius: 10px;
+    font-size: large;
+}
+.ar{
+    color: white;
+}
+.regresar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 226, 226);
+    border-radius: 10px;
+    width: 10%;
+    
+}
+ .marco{
+    padding: 3px 10px;
+    
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 20px;
+ }
+.divbonito2{
+    margin: 1rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgba(68, 152, 188, 0.675);
+    border-radius: 10px;
+    font-size: large;
+}
+
+.divbonito3{
+    margin: 1rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgba(83, 50, 247, 0.864);
+    border-radius: 10px;
+    font-size: large;
+}
+
+.divbonito4{
+    margin: 1rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgba(239, 68, 68, 0.898);
+    border-radius: 10px;
+    font-size: large;
+}

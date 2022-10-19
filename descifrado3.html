@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>256 Bits</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   
+    <h1>Descifrado AES</h1>
+    <p>Escribe la contrasena para 256 bits</p>
+    <input type="text" id="clave">
+        <div class="divbonito4">
+            <p>
+                Sube el archivo que quieres descifrar
+            </p>
+        </div>
+        
+        <div class="marco">
+            <input type="file" value="subir" id="archivo">
+        </div>
+        
+
+        
+        <h3><span>0</span></h3>
+
+        <div>
+            <input type="button" onclick="mostrar2();" value="Descifrar">
+
+        </div>
+
+        
+        <div id="download"></div>
+    
+        <div class="regresar">
+            <a href="index.html" >Regresar</a>
+        </div>
+
+        <div class="regresar">
+            <a href="cifrado3.html">Cifrar</a>
+        </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" ></script>
+    <script src="js/crypt.js"></script>
+    <script src="js/AES.js"></script>
+    <script src="js/procesos3.js"></script>
+</body>
+</html>

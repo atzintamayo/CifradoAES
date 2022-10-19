@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>128 Bits</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   
+    <h1>Descifrado AES</h1>
+    <p>Escribe la contrasena para 128 bits</p>
+    <input type="text" id="clave">
+        <div class="divbonito2">
+            <p>
+                Sube el archivo que quieres descifrar
+            </p>
+        </div>
+        
+        
+            <input type="file" value="subir" id="archivo">
+        
+        
+
+        
+        <h3><span>0</span></h3>
+
+        <div>
+            <input type="button" onclick="mostrar2();" value="Descifrar">
+        </div>
+    
+        
+        <div id="download"></div>
+        
+        <div class="regresar">
+            <a href="index.html" class="ar">Regresar</a>
+        </div>
+        <div class="regresar">
+            <a href="cifrado1.html">Cifrar</a>
+        </div>
+    
+    <script src="js/crypt.js"></script>
+    <script src="js/AES.js"></script>
+    <script src="js/procesos1.js"></script>
+</body>
+</html>
